@@ -1,0 +1,730 @@
+<?xml version='1.0' encoding="utf-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Body>
+        <m:cssvalidationresponse
+            env:encodingStyle="http://www.w3.org/2003/05/soap-encoding"
+            xmlns:m="http://www.w3.org/2005/07/css-validator">
+            <m:uri>https://ready2project.com/styles/main.css</m:uri>
+            <m:checkedby>http://jigsaw.w3.org/css-validator/</m:checkedby>
+            <m:csslevel>css3</m:csslevel>
+            <m:date>2022-09-09T09:31:31Z</m:date>
+            <m:validity>false</m:validity>
+            <m:result>
+                <m:errors xml:lang="en">
+                    <m:errorcount>6</m:errorcount>
+            
+                <m:errorlist>
+                    <m:uri>https://ready2project.com/styles/main.css</m:uri>
+        
+                        <m:error>
+                            <m:line>1</m:line>
+                            <m:errortype>parse-error</m:errortype>
+
+                            <m:errorsubtype>
+                                exp
+                            </m:errorsubtype>
+                            <m:skippedstring>
+                                optimizeSpeed
+                            </m:skippedstring>
+                            <m:type>noexistence-at-all</m:type>
+
+                            <m:message>
+
+                                Property “text-rendering” doesn&apos;t exist : 
+                            </m:message>
+                        </m:error>
+        
+                        <m:error>
+                            <m:line>1</m:line>
+                            <m:errortype>parse-error</m:errortype>
+
+                            <m:errorsubtype>
+                                exp
+                            </m:errorsubtype>
+                            <m:skippedstring>
+                                none
+                            </m:skippedstring>
+                            <m:type>noexistence-at-all</m:type>
+
+                            <m:message>
+
+                                Property “pointer-events” doesn&apos;t exist : 
+                            </m:message>
+                        </m:error>
+        
+                        <m:error>
+                            <m:line>1</m:line>
+                            <m:errortype>parse-error</m:errortype>
+
+                            <m:errorsubtype>
+                                exp
+                            </m:errorsubtype>
+                            <m:skippedstring>
+                                #f06529
+                            </m:skippedstring>
+                            <m:type>noexistence-at-all</m:type>
+
+                            <m:message>
+
+                                Property “stroke” doesn&apos;t exist : 
+                            </m:message>
+                        </m:error>
+        
+                        <m:error>
+                            <m:line>1</m:line>
+                            <m:errortype>parse-error</m:errortype>
+
+                            <m:errorsubtype>
+                                exp
+                            </m:errorsubtype>
+                            <m:skippedstring>
+                                #f06529
+                            </m:skippedstring>
+                            <m:type>noexistence-at-all</m:type>
+
+                            <m:message>
+
+                                Property “stroke” doesn&apos;t exist : 
+                            </m:message>
+                        </m:error>
+        
+                        <m:error>
+                            <m:line>1</m:line>
+                            <m:errortype>parse-error</m:errortype>
+
+                            <m:errorsubtype>
+                                exp
+                            </m:errorsubtype>
+                            <m:skippedstring>
+                                #ff2483
+                            </m:skippedstring>
+                            <m:type>noexistence-at-all</m:type>
+
+                            <m:message>
+
+                                Property “stroke” doesn&apos;t exist : 
+                            </m:message>
+                        </m:error>
+        
+                        <m:error>
+                            <m:line>1</m:line>
+                            <m:errortype>parse-error</m:errortype>
+
+                            <m:errorsubtype>
+                                exp
+                            </m:errorsubtype>
+                            <m:skippedstring>
+                                #fff
+                            </m:skippedstring>
+                            <m:type>noexistence-typo</m:type>
+
+                            <m:message>
+
+                                Property “fill” doesn&apos;t exist. The closest matching property name is “all” : 
+                            </m:message>
+                        </m:error>
+    
+                    </m:errorlist>
+    
+                </m:errors>
+                <m:warnings xml:lang="en">
+                    <m:warningcount>84</m:warningcount>
+            
+                    <m:warninglist>
+                        <m:uri>https://ready2project.com/styles/main.css</m:uri>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-text-size-adjust” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-text-size-adjust” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-moz-text-size-adjust” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-moz-osx-font-smoothing” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-font-smoothing” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-text-decoration-skip” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“:-webkit-autofill” is a vendor extended pseudo-class</m:message>
+                            <m:type>vendor-ext-pseudo-class</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“:-webkit-autofill” is a vendor extended pseudo-class</m:message>
+                            <m:type>vendor-ext-pseudo-class</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“:-webkit-autofill” is a vendor extended pseudo-class</m:message>
+                            <m:type>vendor-ext-pseudo-class</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“:-webkit-autofill” is a vendor extended pseudo-class</m:message>
+                            <m:type>vendor-ext-pseudo-class</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-box-shadow” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“::-webkit-search-cancel-button” is a vendor extended pseudo-element</m:message>
+                            <m:type>vendor-ext-pseudo-element</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“::-webkit-search-decoration” is a vendor extended pseudo-element</m:message>
+                            <m:type>vendor-ext-pseudo-element</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“::-webkit-search-results-button” is a vendor extended pseudo-element</m:message>
+                            <m:type>vendor-ext-pseudo-element</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“::-webkit-search-results-decoration” is a vendor extended pseudo-element</m:message>
+                            <m:type>vendor-ext-pseudo-element</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-appearance” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-moz-appearance” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-appearance” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-moz-appearance” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-appearance” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-appearance” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“::-webkit-search-cancel-button” is a vendor extended pseudo-element</m:message>
+                            <m:type>vendor-ext-pseudo-element</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“::-webkit-search-decoration” is a vendor extended pseudo-element</m:message>
+                            <m:type>vendor-ext-pseudo-element</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-appearance” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“::-moz-focus-inner” is a vendor extended pseudo-element</m:message>
+                            <m:type>vendor-ext-pseudo-element</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“::-moz-focus-inner” is a vendor extended pseudo-element</m:message>
+                            <m:type>vendor-ext-pseudo-element</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-appearance” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“::-moz-focus-inner” is a vendor extended pseudo-element</m:message>
+                            <m:type>vendor-ext-pseudo-element</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“::-moz-focus-inner” is a vendor extended pseudo-element</m:message>
+                            <m:type>vendor-ext-pseudo-element</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“::-moz-focus-inner” is a vendor extended pseudo-element</m:message>
+                            <m:type>vendor-ext-pseudo-element</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“::-moz-focus-inner” is a vendor extended pseudo-element</m:message>
+                            <m:type>vendor-ext-pseudo-element</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“:-moz-handler-blocked” is a vendor extended pseudo-class</m:message>
+                            <m:type>vendor-ext-pseudo-class</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“::-webkit-inner-spin-button” is a vendor extended pseudo-element</m:message>
+                            <m:type>vendor-ext-pseudo-element</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“::-webkit-outer-spin-button” is a vendor extended pseudo-element</m:message>
+                            <m:type>vendor-ext-pseudo-element</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-appearance” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“::-webkit-search-decoration” is a vendor extended pseudo-element</m:message>
+                            <m:type>vendor-ext-pseudo-element</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-appearance” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“::-webkit-file-upload-button” is a vendor extended pseudo-element</m:message>
+                            <m:type>vendor-ext-pseudo-element</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-appearance” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“::-moz-selection” is a vendor extended pseudo-element</m:message>
+                            <m:type>vendor-ext-pseudo-element</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“Lobster,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“Lobster,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-moz-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-ms-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“Lobster,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-moz-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-ms-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-moz-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-ms-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“Lobster,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-moz-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-ms-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-moz-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-ms-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-backface-visibility” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“zoom” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-o-box-shadow” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“zoom” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“*height” is a CSS hack</m:message>
+                            <m:type>css-hack</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“alpha(opacity=0)” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“zoom” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“*display” is a CSS hack</m:message>
+                            <m:type>css-hack</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-o-box-shadow” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-moz-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-ms-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-moz-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-ms-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-moz-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-ms-user-select” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-animation” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-animation” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>“-webkit-animation” is a vendor extension</m:message>
+                            <m:type>vendor-extension</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>Unrecognized at-rule “@-webkit-keyframes”</m:message>
+                            <m:type>at-rule</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>Unrecognized at-rule “@-webkit-keyframes”</m:message>
+                            <m:type>at-rule</m:type>
+                        </m:warning>
+        
+                        <m:warning>
+                            <m:line>1</m:line>
+                            <m:level>0</m:level>
+                            <m:message>Unrecognized at-rule “@-webkit-keyframes”</m:message>
+                            <m:type>at-rule</m:type>
+                        </m:warning>
+    
+                    </m:warninglist>
+                </m:warnings>
+            </m:result>
+        </m:cssvalidationresponse>
+    </env:Body>
+</env:Envelope>
+
