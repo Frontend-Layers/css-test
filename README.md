@@ -11,13 +11,13 @@ _Node.js library for testing CSS and output errors in the console with Gulp.js c
 ### npm
 
 ```shell
-npm i csstest
+npm i css-test-npm
 ```
 
 ### yarn
 
 ```shell
-yarn add csstest
+yarn add css-test-npm
 ```
 
 ## How to use
